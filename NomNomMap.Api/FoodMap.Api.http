@@ -1,0 +1,6 @@
+@FoodMap.Api_HostAddress = http://localhost:5049
+
+GET {{FoodMap.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

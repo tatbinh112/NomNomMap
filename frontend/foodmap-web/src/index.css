@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+.leaflet-marker-icon {
+    filter: saturate(0.85) brightness(0.95);
+}
